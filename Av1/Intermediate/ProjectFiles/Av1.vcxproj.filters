@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Av1.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5969E567-A3ED-4132-A678-E515215139AD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Av1.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Av1Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{FE3EF79A-A988-48B5-BF33-8B4B0B069B5B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Av1">
+			<UniqueIdentifier>{7EE87A8D-AA9D-4ED0-9CF3-7CCA7DFEA152}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Av1\Av1.Build.cs">
+			<Filter>Source\Av1</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Av1\Av1.cpp">
+			<Filter>Source\Av1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Av1\Av1.h">
+			<Filter>Source\Av1</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Av1\MyPaperCharacter.cpp">
+			<Filter>Source\Av1</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Av1\MyPaperCharacter.h">
+			<Filter>Source\Av1</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
